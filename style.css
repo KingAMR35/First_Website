@@ -1,0 +1,67 @@
+.header{
+    display: block;
+    padding: 10px 5%;
+    background-color:black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header>*{
+    display: inline-block;
+    width:450px;
+    font-family: 'Verdana';
+}
+header h1{
+    color: lightskyblue;
+    
+}
+header a{
+    text-decoration: none;
+    font-family: 'Verdana';
+    color: white;
+    margin:0 20px;
+    font-size: 15;
+}
+.pustota{
+    width:25%;
+}
+body{
+    background-image: url(Images/image1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+.films {
+    margin: 0 8%;
+    padding: 150px 0px 0px 0px;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+main a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman';
+}
+.films__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 120px;
+    height: 180px;
+}
+.films2 {
+    margin: 0 8%;
+    padding: 80px 0px 0px 0px;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
